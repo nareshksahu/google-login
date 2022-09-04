@@ -1,0 +1,25 @@
+.suggestion-item {
+  list-style-type: none;
+  width: 370px;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  padding-right: 30px;
+}
+
+.name {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.arrow-img {
+  height: 15px;
+  width: 15px;
+  margin-top: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 15px;
+  }
+}
